@@ -1,0 +1,2 @@
+0 : I am angry today
+1 : I hate bugs
