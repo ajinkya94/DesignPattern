@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 import java.net.URL;
+import java.nio.file.Paths;
 
 class Journal{
     private final List<String> entries = new ArrayList<>();
@@ -49,7 +50,9 @@ class S {
         j.addEntry("I hate bugs");
         System.out.println(j);
         Persistence p = new Persistence();
-        String fileName = "journal.txt";
+        String currDir = Paths.get("").toAbsolutePath().toString();
+        System.out.println(currDir);
+        String fileName = currDir+"\\SOLID\\S\\journal.txt";
         p.saveToFile(j, fileName, true);
     }
 }
