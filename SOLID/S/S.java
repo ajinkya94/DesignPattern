@@ -42,7 +42,7 @@ class Persistence{
 }
 
 
-class Main {
+class S {
     public static void main(String[] args) throws Exception{
         Journal j = new Journal();
         j.addEntry("I am angry today");
