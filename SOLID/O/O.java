@@ -1,3 +1,5 @@
+//Open close principle + Specification Design Pattern (Open for Extension, Closed for modification)
+
 import java.util.List;
 import java.util.stream.Stream;
 
